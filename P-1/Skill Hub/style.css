@@ -1,0 +1,359 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+
+}
+html{
+    scroll-behavior: smooth;
+}
+h1,h2,h3,h4,h5,h6,b{
+    font-family: Gilroy, sans-serif;
+    font-weight: bold;
+}
+
+
+.common-heading{
+    text-align: center;
+
+}
+
+.common-heading h1{
+    font-weight: bold;
+}
+/* header start here */
+#header{
+    margin-top: 20px;
+}
+.skill-navbar{
+    text-align: center;
+     margin: 0% auto;
+     justify-content: center;
+     
+}
+.skill-navbar li{
+    list-style: none;
+    display: inline;
+    margin-left: 20px;
+    padding: 8px;
+    border-radius: 6px;
+    margin-top: 20px;
+}
+.skill-navbar li:nth-child(1){
+    margin-left: 0%;
+}
+
+.skill-navbar li a{
+    font-weight: bold;
+    text-decoration: none;
+    color: rgb(100, 95, 95);
+}
+
+.skill-navbar li:hover{
+    background-color: #3fba96;
+}
+
+.skill-navbar li:hover a{
+    color: white;
+}
+
+.login button{
+    border:none;
+    background-color:#3fba96 ;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+}
+.login a{
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
+}
+.login a:hover{
+    color: white;
+}
+/* header end here */
+
+
+/* About us start here */
+#About-us{
+    margin-top: 70px;
+}
+.about-left p{
+    color: #00f8ae;
+}
+.about-left h1{
+    font-weight: bold;
+    width: 325px;
+}
+.about-span{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: rgb(30, 29, 29);
+}
+.about-right img{
+    width: 100%;
+}
+.about-search{
+    position: relative;
+}
+.about-search input{
+    width: 370px;
+    border:0px solid #999;
+    box-shadow: 0px 0px 1px 0px;
+    padding: 7px;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.about-search div{
+    position: absolute;
+    top: 0;
+    left: 360px;
+}
+.about-search button{
+    text-align: center;
+    color: white;
+    border:none;
+    background-color:#3fba96 ;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+}
+.about-2-last{
+    margin-top: 85px;
+}
+.about-2-last h1{
+    font-weight: bold;
+}
+
+.about-2-last button{
+    text-align: center;
+    color: white;
+    border:none;
+    background-color:#3fba96 ;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.about-last{
+    margin-top: 60px;
+}
+/* About us end here */
+
+/* Resource start here  */
+
+#Resource{
+    margin-top: 80px;
+}
+.single-box{
+    display: flex;
+}
+
+.single-box-title{
+    margin-left: 20px;
+}
+.single-box{
+    padding: 5px;
+    box-shadow: 0px 0px 2px 0px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .3s;
+    margin-top: 15px;
+}
+
+.single-box:hover{
+        box-shadow: 0px 0px 3px 3px #999;
+}
+/* Resource end here  */
+
+/* Course start here */
+#Course{
+    margin-top: 80px;
+}
+
+.course-main-box{
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.course-single-box{
+    cursor: pointer;
+    border-radius:10px ;
+    padding: 10px;
+    box-shadow: 0px 0px 2px 0px;
+}
+
+.course-single-box img{
+    width: 100%;
+}
+
+.course-single-box h6{
+    font-weight: bold;
+}
+
+.course-single-box i{
+    color: gold;
+}
+
+.course-single-box span{
+    color: #00f8ae;
+    text-align: right;
+}
+
+.course-single-box:hover{
+    box-shadow: 0px 0px 2px 2px #ddd;
+    
+}
+
+/* Course end here */
+
+/* Query start here */
+#Query{
+    margin-top: 80px;
+    background: url("./images/body\ images/5.png");
+    background-repeat: no-repeat;
+    background-position-x: right;
+}
+
+.query{
+    margin-top: 100px;
+}
+
+.query-search{
+    position: relative;
+}
+.query-search input{
+    width: 270px;
+    border:0px solid #999;
+    box-shadow: 0px 0px 1px 0px;
+    padding: 7px;
+    border-radius: 3px;
+    outline: none;
+    
+}
+
+.query-search div{
+    position: absolute;
+    top: 0;
+    left: 260px;
+}
+.query-search button{
+    text-align: center;
+    color: white;
+    border:none;
+    background-color:#3fba96 ;
+    padding: 7px;
+    width: 120px;
+    border-radius: 5px;
+}
+/* Query end here */
+
+/* Footer starts here */
+#Footer{
+    margin-top: 80px;
+    padding: 10px;
+    background-color:#212832;
+    color: white;
+}
+
+#Footer a{
+    text-decoration: none;
+    color: #999;
+    display: block;
+    margin-top: 7px;
+}
+
+.icon a{
+    display: inline;
+}
+#Footer a:hover{
+    text-decoration: underline;
+}
+/* Footer end here */
+
+/* Responsive mobile start here */
+@media screen and (max-width:768px) {
+    .skill-hed-img{
+        text-align: center;
+        margin: 0% auto;
+    }
+    .skill-navbar{
+        text-align: center;
+        margin: 0% auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .skill-navbar ul li{
+        display: block;
+        margin-left: 0%;
+        margin-top: 0%;
+
+    }
+
+    .login{
+        text-align: center;
+        margin: 0% auto;
+    }
+    #About-us{
+        text-align: center;
+    }
+    .about-left h1{
+    width: auto;
+    }
+
+    .about-right{
+        margin-top: 50px;
+    }
+    .about-search input{
+        width: 250px;
+    }
+    .about-search div{
+        left: 250px;
+    }
+    .course-single-box{
+        margin-top: 40px;
+    }
+    .course-single-box h6{
+        text-align: center;
+        
+    }
+    .course-single-box span{
+        text-align: right;
+    }
+    #Query{
+        background: none;
+    }
+    .query{
+        text-align: center;
+    }
+    
+.query-search div{
+    left: 300px;
+}
+
+    #Footer{
+        text-align: center;
+    }
+
+    #Footer h5{
+        margin-top: 30px;
+    }
+}
+
+
+/* Responsive mobile end here */
+
+
+/* Responsive leptop end here */
+@media screen and (max-width:992px) {
+    .course-single-box{
+        margin-top: 20px;
+    }
+    
+}
+
+/* Responsive leptop end here */
